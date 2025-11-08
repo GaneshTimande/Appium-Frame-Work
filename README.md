@@ -1,6 +1,6 @@
-# Asttak App Automation Framework
+# Astrotalk App Automation Framework
 
-This repository contains a **robust Appium automation framework** built in **Java** for testing the **Asttak mobile application**.  
+This repository contains a **robust Appium automation framework** built in **Java** for testing the **Astrotalk mobile application**.  
 The framework is designed to be scalable, maintainable, and efficient, following best practices in mobile test automation.
 
 ---
