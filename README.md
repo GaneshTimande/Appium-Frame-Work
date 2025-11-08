@@ -27,6 +27,9 @@ Appium-Frame-Work/
 ├── resources/          # Test data, config files
 ├── pom.xml             # Maven project file
 └── README.md
+
+
+
 Getting Started
 1. Clone the repository
 git clone https://github.com/GaneshTimande/Appium-Frame-Work.git
