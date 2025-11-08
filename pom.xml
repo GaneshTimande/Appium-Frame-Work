@@ -1,0 +1,171 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>RestAssured</groupId>
+  <artifactId>RestAssured</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  <dependency>
+    <groupId>org.json</groupId>
+    <artifactId>json</artifactId>
+    <version>20210307</version> <!-- Or the latest version -->
+</dependency>
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-core</artifactId>
+    <version>2.17.2</version> <!-- or latest stable -->
+</dependency>
+
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-api</artifactId>
+    <version>2.17.2</version>
+</dependency>
+  <!-- Appium Java Client -->
+    <dependency>
+        <groupId>io.appium</groupId>
+        <artifactId>java-client</artifactId>
+        <version>8.6.0</version>
+    </dependency>
+
+    <!-- Selenium WebDriver -->
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>4.12.0</version>
+    </dependency>
+
+    <!-- TestNG (for test execution and annotations) -->
+    <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>7.8.0</version>
+        <scope>test</scope>
+    </dependency>
+
+    <!-- Optional: WebDriverManager for driver management -->
+    <dependency>
+        <groupId>io.github.bonigarcia</groupId>
+        <artifactId>webdrivermanager</artifactId>
+        <version>5.5.0</version>
+    </dependency>
+
+    <!-- ✅ REST Assured -->
+    <dependency>
+        <groupId>io.rest-assured</groupId>
+        <artifactId>rest-assured</artifactId>
+        <version>5.5.5</version>
+        <scope>test</scope>
+    </dependency>
+    <dependency>
+        <groupId>org.apache.poi</groupId>
+        <artifactId>poi</artifactId>
+        <version>5.2.3</version>
+    </dependency>
+
+    <!-- Apache POI for .xlsx (XSSF) -->
+    <dependency>
+        <groupId>org.apache.poi</groupId>
+        <artifactId>poi-ooxml</artifactId>
+        <version>5.2.3</version>
+    </dependency>
+<dependency>
+    <groupId>com.microsoft.playwright</groupId>
+    <artifactId>playwright</artifactId>
+    <version>1.53.0</version>
+</dependency>
+    <!-- ✅ JSON Path -->
+    <dependency>
+        <groupId>io.rest-assured</groupId>
+        <artifactId>json-path</artifactId>
+        <version>5.5.5</version>
+        <scope>test</scope>
+    </dependency>
+
+    <!-- ✅ XML Path -->
+    <dependency>
+        <groupId>io.rest-assured</groupId>
+        <artifactId>xml-path</artifactId>
+        <version>5.5.5</version>
+        <scope>test</scope>
+    </dependency>
+
+    <!-- ✅ JSON Schema Validator -->
+    <dependency>
+        <groupId>io.rest-assured</groupId>
+        <artifactId>json-schema-validator</artifactId>
+        <version>5.5.5</version>
+        <scope>test</scope>
+    </dependency>
+<dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>4.21.0</version>
+    </dependency>
+    <!-- Selenium Java (includes all core modules) -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.12.0</version>
+        </dependency>
+
+        <!-- WebDriverManager (auto manages ChromeDriver/EdgeDriver) -->
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>5.5.0</version>
+        </dependency>
+
+        <!-- TestNG (for running tests) -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.9.0</version>
+            <scope>test</scope>
+        </dependency>
+
+    <!-- TestNG -->
+    <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>7.10.1</version>
+        <scope>test</scope>
+    </dependency>
+
+    <!-- WebDriverManager (optional) -->
+    <dependency>
+        <groupId>io.github.bonigarcia</groupId>
+        <artifactId>webdrivermanager</artifactId>
+        <version>5.5.0</version>
+    </dependency>
+    <!-- ✅ Google Gson -->
+    <dependency>
+        <groupId>com.google.code.gson</groupId>
+        <artifactId>gson</artifactId>
+        <version>2.11.0</version>
+    </dependency>
+
+    <!-- ✅ TestNG -->
+    <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>7.10.2</version>
+        <scope>test</scope>
+    </dependency>
+
+    <!-- ✅ ScribeJava APIs -->
+    <dependency>
+        <groupId>com.github.scribejava</groupId>
+        <artifactId>scribejava-apis</artifactId>
+        <version>8.3.3</version>
+    </dependency>
+
+    <!-- ✅ XML Schema Validator (Apache Xerces for XSD validation) -->
+    <dependency>
+        <groupId>xerces</groupId>
+        <artifactId>xercesImpl</artifactId>
+        <version>2.12.2</version>
+    </dependency>
+
+</dependencies>
+
+</project>

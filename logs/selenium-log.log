@@ -1,0 +1,9 @@
+2025-07-31 15:45:43 [main] INFO  Aug31.SampleTest - Test started: testLogin
+2025-07-31 15:45:43 [main] ERROR Aug31.SampleTest - Simulated error for demonstration
+2025-07-31 15:45:43 [main] INFO  Aug31.SampleTest - Test completed: testLogin
+2025-07-31 15:54:55 [main] INFO  Aug31.SampleTest - Test started: testLogin
+2025-07-31 15:54:55 [main] ERROR Aug31.SampleTest - Simulated error for demonstration
+2025-07-31 15:54:55 [main] INFO  Aug31.SampleTest - Test completed: testLogin
+2025-07-31 15:55:06 [main] INFO  Aug31.SampleTest - Test started: testLogin
+2025-07-31 15:55:06 [main] ERROR Aug31.SampleTest - Simulated error for demonstration
+2025-07-31 15:55:06 [main] INFO  Aug31.SampleTest - Test completed: testLogin

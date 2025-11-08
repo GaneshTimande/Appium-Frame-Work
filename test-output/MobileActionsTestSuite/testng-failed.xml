@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MobileActionsTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="MobileActionsTests(failed)">
+    <classes>
+      <class name="appium.TestMobileActions">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testVolumeScreenshotClipboard"/>
+          <include name="setUp"/>
+          <include name="testPermissions"/>
+          <include name="testDeviceSettings"/>
+          <include name="testRotateScreen"/>
+          <include name="testContextSwitch"/>
+        </methods>
+      </class> <!-- appium.TestMobileActions -->
+    </classes>
+  </test> <!-- MobileActionsTests(failed) -->
+</suite> <!-- Failed suite [MobileActionsTestSuite] -->
